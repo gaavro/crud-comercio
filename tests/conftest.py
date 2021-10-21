@@ -21,3 +21,4 @@ def client(app: Flask):
 @fixture
 def app_routes(app: Flask):
     return app.url_map.bind("")
+    
